@@ -21,7 +21,7 @@ def main():
 
 def get_file_content_as_string(path):
     with st.spinner("Fetching file content..."):
-        url = 'https://raw.githubusercontent.com/chiluveri-sanjay/Emotion-recognition/main/' + path
+        url = 'https://github.com/Udara-Rangika/Voice-Emotion-Recognition-Model/' + path
         response = urllib.request.urlopen(url)
         return response.read().decode("utf-8")
 
